@@ -17,30 +17,21 @@
  */
 package org.sakaiproject.nakamura.auth.oauth;
 
-import org.osgi.framework.BundleActivator;
-import org.osgi.framework.BundleContext;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.runners.MockitoJUnitRunner;
 
-/**
- *
- */
-public class Activator implements BundleActivator {
+@RunWith(MockitoJUnitRunner.class)
+public class OauthProxyPreProcessorTest {
+  
+  OauthProxyPreProcessor processor;
 
-  /**
-   * {@inheritDoc}
-   * 
-   * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
-   */
-  public void start(BundleContext bundleContext) throws Exception {
-
+  @Before
+  public void setUp() {
   }
 
-  /**
-   * {@inheritDoc}
-   * 
-   * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
-   */
-  public void stop(BundleContext bundleContext) throws Exception {
-
+  @Test
+  public void test() {
   }
-
 }

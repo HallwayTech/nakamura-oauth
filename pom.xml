@@ -37,13 +37,23 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+            <version>0.8</version>
+        </dependency>
+        <dependency>
             <groupId>org.scribe</groupId>
             <artifactId>scribe</artifactId>
             <version>1.1.1</version>
         </dependency>
         <dependency>
-        	<groupId>org.apache.felix</groupId>
-        	<artifactId>org.osgi.core</artifactId>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.osgi.core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.sakaiproject.nakamura</groupId>
+            <artifactId>org.sakaiproject.nakamura.proxy</artifactId>
+            <version>0.10-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
